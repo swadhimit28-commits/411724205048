@@ -1,0 +1,81 @@
+body{
+    background-color: yellowgreen;
+    color: green;
+}
+
+p{
+    font-family: 'Times new roman',Times,serif;
+    font-size:xx-large;
+    font-style:italic;
+}
+img{
+    height: 500px;
+    width: 500px;
+}
+@media(max-width:600px){
+}
+video{
+    width :500px;
+}
+
+ol{
+    list-style-type:disc;
+}
+ul{
+    list-style-type:circle;
+}
+
+h1{
+    padding:50px;
+    border:1px soild red;
+    margin:50px;
+}
+
+button{
+    background-color:yellow;
+    padding: 10px;
+    margin: 20px;
+}
+
+button:hover{
+    background-color:blue;
+}
+table ,th,td{
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+nav{
+    display:flex;
+    flex-direction:row  ;
+}
+@media (min-width: 600px){
+    nava{
+        display:flex;
+        flex-direction:column  ;
+        gap: 50px;
+
+    }
+}
+#p1{
+    font-style: italic ;
+}
+#p2{
+    font-style: normal ;
+}
+
+.group{
+    font-size: xx-large;
+}
+
+.grid {
+    display: grid;
+   
+}
+
+
+@media(min-width:1024px){
+    .grid{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+}
